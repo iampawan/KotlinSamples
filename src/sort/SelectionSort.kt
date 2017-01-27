@@ -1,3 +1,10 @@
+package sort
+
+/**
+ * An implementation of selection sort algorithm
+ * AveragePerformance = O(n^2)
+ */
+
 import java.util.*
 
 fun main(args: Array<String>) {

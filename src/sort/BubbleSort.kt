@@ -1,3 +1,5 @@
+package sort
+
 /**
  * Bubble sort algorithm
  * AveragePerformance = O(n^2)
@@ -18,7 +20,7 @@ fun <T: Comparable<T>>bubbleSort(items : MutableList<T>):MutableList<T>{
         var swapped:Boolean = false
         for(j in items.count()-1 downTo  i+1){
             if(items[j]<items[j-1]){
-                swap(items,j,j-1) //swap method picked from SelectionSort Kotlin File
+                swap(items,j,j-1) //sort.swap method picked from SelectionSort Kotlin File
                 swapped = true
             }
         }
