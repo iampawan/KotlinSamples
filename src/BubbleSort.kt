@@ -1,3 +1,8 @@
+/**
+ * Bubble sort algorithm
+ * AveragePerformance = O(n^2)
+ */
+
 fun main(args: Array<String>) {
     val numbers = mutableListOf(5,1,7,3,9,6)
     println(numbers)
